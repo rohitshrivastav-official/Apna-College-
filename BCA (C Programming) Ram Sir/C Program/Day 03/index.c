@@ -15,15 +15,15 @@ int main()
 
     printf("Enter 2nd number");
     scanf("%d",&b);
-//incomplete code it can change soon
+    
     c=a+b;
-    printf(" %d",c);
+    printf("\n sum= %d",c);
     d=a-b;
-    printf(" %d",d);
+    printf("\n difference= %d",d);
     e=a*b;
-    printf(" %d",e);
+    printf("\n product= %d",e);
     f=a/b;
-    printf(" %f",f);
+    printf("\n quotient= %f",f);
     g=a%b;
-    printf(" %f",g);
+    printf("\n remainder= %f",g);
 }
